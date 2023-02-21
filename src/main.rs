@@ -11,6 +11,6 @@ fn main() {
         eprintln!("error: {}", error);
     } else {
         let result = String::from_utf8_lossy(&output.stdout);
-        println!("您的设备唯一标识符是: {}", result);
+        println!("The unique key of your device is: {}", result);
     }
 }
